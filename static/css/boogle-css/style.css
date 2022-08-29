@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home {
+    width: 110px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 3px;
+    align-items: center;
+    height: 20px;
+}
+
+.home a {
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+}
+
+.home:hover {
+    background-color: #ccccb3;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    margin-right:10px;
+}
+
+.links a {
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.links a i:hover {
+    background-color: grey;
+}
+
+.more-info {
+    position: relative;
+}
+
+.more-info:hover:before {
+    opacity: 1;
+}
+
+.more-info:before {
+    content: attr(aria-label);
+    opacity: 0;
+    position: absolute;
+    top: 30px;
+    right: -45px;
+    font-size: 14px;
+    width: 100px;
+    padding: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 0;
+}
+
+span {
+    font-size: 130px;
+}
+
+.search-field {
+    margin: 30px;
+}
+
+.search-field i {
+    position: absolute;
+}
+
+.icon {
+    padding: 10px;
+}
+
+.input-field {
+    width: 500px;
+    height: 30px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+
+.blue {
+    color: rgb(0, 0, 255, 0.8);
+}
+
+.red {
+    color: rgb(255 , 0, 0, 0.8);
+}
+
+.yellow {
+    color: rgb(255, 165, 0);
+}
+
+.green {
+    color: rgb(0, 255, 0);
+}
+
+.footer1 {
+    position : absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #b3b3b3;
+    height: 40px;
+    text-align: center;
+}
